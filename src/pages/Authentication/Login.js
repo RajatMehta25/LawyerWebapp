@@ -85,27 +85,33 @@ class Login extends Component {
         });
         console.log("iffffffff");
       } else {
-        console.log(data.data.roll_access_id.roll_acess);
-        Cookies.set("access", JSON.stringify(data.data.roll_access_id.roll_access), {
-          expires: 365,
-        });
-        Cookies.set("rolename", JSON.stringify(data.data.roll_access_id.roll_name), {
-          expires: 365,
-        });
+        // console.log(data.data.roll_access_id.roll_acess);
+        // Cookies.set("access", JSON.stringify(data.data.roll_access_id.roll_access), {
+        //   expires: 365,
+        // });
+        // Cookies.set("rolename", JSON.stringify(data.data.roll_access_id.roll_name), {
+        //   expires: 365,
+        // });
 
         console.log("elseeeeeeee");
       }
-      Cookies.set("email", JSON.stringify(data.data.email), {
+      // Cookies.set("email", JSON.stringify(data.data.email), {
+      //   expires: 365,
+      // });
+      Cookies.set("email", "rajat@gmail.com", {
         expires: 365,
       });
       // this.props.history.push("/dashboard");
-      if (data.data.is_blocked) {
+      // if (data.data.is_blocked) {
+      if (false) {
         alert("It looks like your account has been blocked. Please contact your admin to unblock it");
         Cookies.remove("admin_access_token");
         this.props.history.push("/login");
       } else {
-        if (!data.data.isSuperAdmin) {
-          switch (data.data.roll_access_id.roll_access[0]) {
+        // if (!data.data.isSuperAdmin) {
+        if (false) {
+          // switch (data.data.roll_access_id.roll_access[0]) {
+          switch ("Dashboard") {
             case "Dashboard":
               this.props.history.push(`/dashboard`);
               break;
