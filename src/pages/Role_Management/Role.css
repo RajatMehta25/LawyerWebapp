@@ -1,0 +1,10 @@
+/* .css-2613qy-menu{
+    position: relative;
+    z-index: 9999;
+} */
+.addRoleModal .MuiDialog-paperScrollPaper {
+    overflow-y: visible !important;
+}
+.addRoleModal .MuiDialogContent-root{
+    overflow-y: visible !important;
+}

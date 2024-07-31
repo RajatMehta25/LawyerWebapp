@@ -1,0 +1,28 @@
+.heightfix{
+    height: 38px !important;
+    min-width: 20vw !important;
+}
+.MuiTableContainer-root::-webkit-scrollbar {
+    width: 4px !important;
+}
+.MuiTableContainer-root::-webkit-scrollbar:horizontal {
+   height: 4px !important;
+}
+
+
+.MuiTableContainer-root::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 20px 20px 5px rgba(0,0,0,0.3) !important;; 
+    border-radius: 10px !important;
+    
+     }
+
+     .MuiTableContainer-root::-webkit-scrollbar-thumb {
+    border-radius: 10px !important;
+    -webkit-box-shadow: inset 20px 20px 5px rgba(0,0,0,0.5) !important;; 
+    
+}
+/* .flow{
+    text-overflow: ellipsis;
+    width:5vw !important;
+    height: 5vh !important;
+} */

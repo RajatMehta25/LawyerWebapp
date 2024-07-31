@@ -1,0 +1,17 @@
+/* .css-2613qy-menu{
+    position: relative;
+    z-index: 9999;
+} */
+.addRoleModal .MuiDialog-paperScrollPaper {
+    overflow-y: visible !important;
+}
+.addRoleModal .MuiDialogContent-root{
+    overflow-y: visible !important;
+}
+.MuiSwitch-colorSecondary.Mui-checked {
+    color: #fff !important;
+}
+.MuiSwitch-colorSecondary.Mui-checked + .MuiSwitch-track {
+    background-color: #0294b3 !important;
+    opacity: 1 !important;
+}

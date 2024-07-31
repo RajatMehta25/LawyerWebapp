@@ -1,0 +1,19 @@
+.button_group{
+    height: auto;
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    margin-bottom: 10px;
+
+    Button{
+        margin-right: 15px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+
+        &:hover{
+            color: white;
+        }
+    }
+}

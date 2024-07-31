@@ -1,0 +1,38 @@
+.css-12rl710-MuiPaper-root-MuiDialog-paper {
+    width: 100% !important;
+    border-radius: 15px !important;
+}
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    width: 27% !important;
+    border-radius: 15px !important;
+}
+
+.css-uhb5lp {
+    width: 100% !important;
+    border-radius: 15px !important;
+}
+
+.css-1qmc5dd {
+    width: 100% !important;
+    border-radius: 15px !important;
+}
+.MuiDialog-paper .closeicon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    background: #dcdcdc;
+    text-align: center;
+    line-height: 40px;
+    color: #202020;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.MuiDialog-paper .closeicon {
+    width: 25px;
+    height: 25px;
+    font-size: 15px;
+    line-height: 25px;
+}
